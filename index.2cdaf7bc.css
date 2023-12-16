@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Avenir;
+  src: url("Avenir.1d049072.ttc");
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: Avenir;
+  font-weight: bold;
+  src: url("Avenir-Heavy.9246a2b0.ttf");
+}
+
+.search {
+  width: 100% - 1.6px;
+  border: 1px solid #e1e7ed;
+  border-radius: 4px;
+  align-items: center;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  box-shadow: 0 1px 8px #3d4e611a;
+}
+
+.search:hover {
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.big__search {
+  height: 68.4px;
+}
+
+input {
+  color: #3d4e61;
+  background-image: url("Search.f4d21c8a.svg");
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  padding: 0;
+  font-family: Avenir, sans-serif;
+  font-weight: 400;
+}
+
+.input__big {
+  background-position: 26px 25px;
+  height: 100%;
+  padding-left: 62px;
+  font-size: 16px;
+}
+
+.input__small {
+  background-position: 12px 14px;
+  background-size: 11px;
+  height: 100%;
+  padding-left: 33px;
+  font-size: 14px;
+}
+
+.input__small:hover {
+  text-shadow: 1px 4px 4px #00000040;
+}
+
+.input__big:focus {
+  text-shadow: 1px 4px 4px #00000040;
+  background: url("Search.f4d21c8a.svg") 26px 25px no-repeat, linear-gradient(#fff 0%, #f6f6f7 100%);
+  font-weight: bold;
+}
+
+.input__small:focus {
+  text-shadow: none;
+  background-color: #0000;
+  background-image: url("Search.f4d21c8a.svg"), linear-gradient(#fff 0%, #f6f6f7 100%);
+  background-position: 12px 14px, 0 0;
+  background-repeat: no-repeat, repeat;
+  background-size: 11px;
+  background-attachment: scroll, scroll;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
